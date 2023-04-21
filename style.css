@@ -1,0 +1,42 @@
+header {
+        /* Sets background color to black. */
+        background-color: darkblue;
+        margin-bottom: 40px;
+      }
+      
+      h1 {
+        font-size: 48px;
+      }
+      
+      /* Set the font size for mobile devices */
+      @media (max-width: 767px) {
+        h1 {
+          font-size: 52px;
+        }
+      }
+      
+      /* Set the font size for desktop devices */
+      @media (min-width: 768px) {
+        h1 {
+          font-size: 48px;
+        }
+      }
+
+      h1 {
+        color:white;
+      }
+
+      ul {
+        list-style: none;
+        margin: 10;
+        padding:10;
+        text-align: center; /* To center the list */
+      }
+      
+      li {
+        display: inline-block;
+        margin: 0 20px; /* Add some space between the links */
+      }
+      #menu li a {
+        color: white;
+      }
